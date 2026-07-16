@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: 'Cinzel', serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+
+  --color-maroon: #6A1B1A;
+  --color-maroon-dark: #4E1212;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-ivory: #F9F4E8;
+  --color-brown: #5A3A22;
+  --color-charcoal: #2E2A26;
+}
+
+@layer base {
+  body {
+    background-color: #F9F4E8;
+    color: #2E2A26;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Cinzel', serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F9F4E8;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #6A1B1A;
+    border-radius: 4px;
+    border: 1px solid #D4AF37;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+/* Custom luxury utilities */
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #FFF8DC 0%, #D4AF37 50%, #B8860B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gradient-maroon {
+    background: linear-gradient(135deg, #6A1B1A 0%, #4E1212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gradient-gold {
+    border-image: linear-gradient(to right, transparent, #D4AF37, transparent) 1;
+  }
+
+  .glass-card {
+    background: rgba(106, 27, 26, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+  }
+
+  .glass-card-light {
+    background: rgba(249, 244, 232, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+  }
+
+  .gold-glow {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+  }
+
+  .gold-glow-lg {
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.45);
+  }
+
+  .maroon-glow {
+    box-shadow: 0 10px 30px rgba(106, 27, 26, 0.3);
+  }
+}
+
+/* Shimmer animation for CTAs */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
