@@ -15,7 +15,7 @@ const About = ({ onOpenConsultation }) => {
         <SectionHeading
           badge="Authentic Vedic Legacy"
           title="About Tathastu AstroVastu"
-          subtitle="Guided by ancient spiritual scriptures, Parashari astrology, and divine Vastu Shastra principles from our consecrated center in Petlad, Anand, Gujarat."
+          subtitle="Guided by ancient spiritual scriptures, Parashari astrology, Lal Kitab wisdom, and divine Vastu Shastra principles from our consecrated center in Petlad, Anand, Gujarat."
         />
 
         {/* Main Grid: Left Image & Mandala Frame, Right Narrative */}
@@ -78,7 +78,7 @@ const About = ({ onOpenConsultation }) => {
                 Where Ancient Vedic Science Meets Modern Life Clarity
               </h3>
               <p className="text-base sm:text-lg leading-relaxed text-[#2E2A26]/85 font-normal">
-                At <span className="font-semibold text-[#6A1B1A]">Tathastu AstroVastu</span>, we believe that destiny is not to be feared—it is to be understood and mastered. Located in the heart of <span className="font-medium">Petlad, Anand, Gujarat</span>, our divine center combines classical mathematical calculations of Parashari and Jaimini Kundali analysis with practical Vastu Shastra.
+                At <span className="font-semibold text-[#6A1B1A]">Tathastu AstroVastu</span>, we believe that destiny is not to be feared—it is to be understood and mastered. Located in the heart of <span className="font-medium">Petlad, Anand, Gujarat</span>, our divine center combines classical mathematical calculations of Parashari and Jaimini Kundali analysis with practical Vastu Shastra and miraculous Lal Kitab remedies.
               </p>
               <p className="text-base sm:text-lg leading-relaxed text-[#2E2A26]/85 font-normal">
                 We specialize in solving critical crossroads of life—be it delayed marriages, relationship harmony, unexpected financial stagnation, corporate career hurdles, or complex health and legal challenges. Every consultation is treated with sacred respect, transparency, and absolute confidentiality.

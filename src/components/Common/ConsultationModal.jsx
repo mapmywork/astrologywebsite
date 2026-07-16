@@ -67,8 +67,10 @@ const ConsultationModal = ({ isOpen, onClose, initialService = "" }) => {
             {/* Top Gold Header Ornament */}
             <div className="bg-gradient-to-r from-[#4E1212] via-[#6A1B1A] to-[#4E1212] border-b border-[#D4AF37]/30 px-6 py-5 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37] flex items-center justify-center text-[#D4AF37]">
-                  <Sparkles className="w-5 h-5 animate-pulse" />
+                <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#FFF8DC] to-[#B8860B] p-[1.5px] flex items-center justify-center shadow-md">
+                  <div className="w-full h-full rounded-full bg-[#2E2A26] overflow-hidden flex items-center justify-center">
+                    <img src="/logo.jpeg" alt="Tathastu AstroVastu Logo" className="w-full h-full object-cover rounded-full" />
+                  </div>
                 </div>
                 <div>
                   <h3 className="font-['Cinzel',serif] text-lg sm:text-xl font-bold text-gradient-gold">

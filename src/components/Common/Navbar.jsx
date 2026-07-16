@@ -76,9 +76,13 @@ const Navbar = ({ onOpenConsultation }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#FFF8DC] to-[#B8860B] p-[2px] flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-              <div className="w-full h-full rounded-full bg-[#6A1B1A] flex items-center justify-center">
-                <span className="text-[#D4AF37] font-['Cinzel',serif] text-xl sm:text-2xl font-bold">ॐ</span>
+            <div className="relative w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#FFF8DC] to-[#B8860B] p-[2.5px] flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+              <div className="w-full h-full rounded-full bg-[#2E2A26] flex items-center justify-center overflow-hidden">
+                <img
+                  src="/logo.jpeg"
+                  alt="Tathastu AstroVastu Logo"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
             </div>
             <div className="flex flex-col">

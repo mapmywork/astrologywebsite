@@ -118,7 +118,7 @@ const Hero = ({ onOpenConsultation }) => {
 
             {/* Description */}
             <p className="text-base sm:text-lg text-[#F9F4E8]/80 leading-relaxed max-w-2xl font-light">
-              Experience authentic Vedic Astrology, Numerology, Vastu Consultation, Gemstone Guidance, and Spiritual Remedies designed to bring peace, prosperity, success, and positive transformation.
+              Experience authentic Vedic Astrology, Numerology, Vastu Consultation, Lal Kitab Remedies, Gemstone Guidance, and Spiritual Remedies designed to bring peace, prosperity, success, and positive transformation.
             </p>
 
             {/* Action Buttons */}

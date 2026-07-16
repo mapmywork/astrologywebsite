@@ -16,10 +16,14 @@ const Footer = ({ onOpenConsultation }) => {
           
           {/* Column 1: Brand & Narrative */}
           <div className="lg:col-span-4 space-y-5">
-            <a href="#hero" className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#FFF8DC] to-[#B8860B] p-[2px] flex items-center justify-center shadow-md">
-                <div className="w-full h-full rounded-full bg-[#6A1B1A] flex items-center justify-center">
-                  <span className="text-[#D4AF37] font-['Cinzel',serif] text-xl font-bold">ॐ</span>
+            <a href="#hero" className="flex items-center gap-3 group">
+              <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-tr from-[#D4AF37] via-[#FFF8DC] to-[#B8860B] p-[2.5px] flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                <div className="w-full h-full rounded-full bg-[#2E2A26] flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/logo.jpeg"
+                    alt="Tathastu AstroVastu Logo"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
               <div className="flex flex-col">
@@ -33,7 +37,7 @@ const Footer = ({ onOpenConsultation }) => {
             </a>
 
             <p className="text-xs sm:text-sm text-[#F9F4E8]/80 leading-relaxed font-light max-w-sm">
-              Authentic Vedic Astrology, Numerology, Vastu Consultation, and Gemstone Guidance. We combine ancient wisdom with practical remedies to bring peace, prosperity, and success to your personal and professional life.
+              Authentic Vedic Astrology, Numerology, Vastu Consultation, Lal Kitab Remedies, and Gemstone Guidance. We combine ancient wisdom with practical remedies to bring peace, prosperity, and success to your personal and professional life.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
