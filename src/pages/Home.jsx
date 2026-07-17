@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
+import AboutFounder from '../components/About/AboutFounder';
 import Services from '../components/Services/Services';
 import Problems from '../components/Problems/Problems';
 import Remedies from '../components/Remedies/Remedies';
@@ -15,6 +16,7 @@ const Home = ({ onOpenConsultation }) => {
     <main className="w-full">
       <Hero onOpenConsultation={() => onOpenConsultation("General Hero Consultation")} />
       <About onOpenConsultation={() => onOpenConsultation("About Section Consultation")} />
+      <AboutFounder />
       <Services onOpenConsultation={onOpenConsultation} />
       <Problems onOpenConsultation={onOpenConsultation} />
       <Remedies onOpenConsultation={onOpenConsultation} />
