@@ -14,7 +14,7 @@ const Problems = ({ onOpenConsultation }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="Spiritual Solutions"
-          title="Problems We Help Solve"
+          title="Guidance for Life's Challenges"
           subtitle="Are you facing hurdles despite your hard work? Ancient Vedic astrology diagnoses the root karmic block and provides exact spiritual remedies."
         />
 

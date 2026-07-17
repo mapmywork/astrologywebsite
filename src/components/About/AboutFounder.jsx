@@ -31,7 +31,7 @@ const AboutFounder = () => {
                   Acharya Jagdish
                 </h3>
                 <p className="text-sm text-[#F3E5AB] mt-1 font-medium tracking-wide">
-                  Master Vedic Astrologer & Vastu Expert
+                  Master Lal kitab & vastu
                 </p>
               </div>
             </div>

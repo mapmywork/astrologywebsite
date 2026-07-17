@@ -7,7 +7,7 @@ export const BUSINESS_INFO = {
   secondaryPhone: "+91 9429000108",
   email: "giri.jg34@gmail.com",
   location: "Petlad, Anand, Gujarat, India",
-  address: "Near Main Temple Road, Petlad, Anand District, Gujarat - 388450",
+  address: "Jagdish Goswami, 25 Maa krupa, Desai Estet, Near Yogi villa, Bihind Harshal Hospital, Nadiad-khambhat Road, Petlad - 388450",
   workingHours: "Monday – Sunday: 9:00 AM – 8:00 PM",
   whatsappUrl: "https://wa.me/919925435572?text=Hello%20Tathastu%20AstroVastu,%20I%20would%20like%20to%20book%20a%20consultation.",
   googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29377.013564026857!2d72.7749454179373!3d22.474028682022874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e54d8b8a3e9c5%3A0x6b1b4b1a1f5c3b1a!2sPetlad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
